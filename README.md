@@ -4,11 +4,23 @@ Custom HTML element for use with Ionic that lazy loads and caches images based o
 
 ## Installation
 
+Install the package:
+
 `npm install ionic-image-cache`
+
+Now, all you have to do is insert this line in your HTML page:
+
+`<script type="module" src="../node_modules/ionic-image-cache/dist/index.js"></script>`
+
+Adjust the path to reflect the correct location of your "node_modules" folder in relation to your HTML file.
+
+To rebuild the distribution script, if needed, type:
+
+`npm run build`
 
 ## Basic Usage
 
-Replace:
+Replace your `<img>` tags:
 
 `<img src="image.jpg" />`
 
