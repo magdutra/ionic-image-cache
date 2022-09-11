@@ -1,7 +1,9 @@
 {
   "name": "ionic-image-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom HTML element to lazy load and cache images based on vanilla JS and Capacitor plugins",
+  "author": "Miguel Dutra <mdutra@mdutra.com>",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -21,13 +23,9 @@
   "scripts": {
     "build": "npx browserify src/index.js > dist/index.js"
   },
-  "author": "Miguel Dutra <mdutra@mdutra.com>",
-  "license": "MIT",
   "devDependencies": {
     "@capacitor/filesystem": "^4.1.0",
-    "@capacitor/preferences": "^4.0.1"
-  },
-  "dependencies": {
+    "@capacitor/preferences": "^4.0.1",
     "browserify": "^17.0.0"
   }
 }
